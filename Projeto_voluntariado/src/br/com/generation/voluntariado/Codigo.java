@@ -31,36 +31,37 @@ public class Codigo {
                 }
                 else if(teste3==2) {
                    
-                	System.out.println("Escolha uma das instituições para saber mais: \n[1] Associação Beneficente Parsifal\n[2] Cáritas de Santo Amaro\n[3] Fundação Bunge\n[4] Assoc.Desportiva para Deficientes");
+                	System.out.println("Escolha uma das instituições para saber mais: \n[1] Associação Beneficente Parsifal\n[2] Salva Vidas Mirim\n[3] Fundação Bunge\n[4] Assoc.Desportiva para Deficientes");
                 	//escolha da Zona sul em SP                 	
                 	//
                 	teste4=entrada.nextInt();
                 	if(teste4==1) {
                 		System.out.println("Razão Social: Assoc.Beneficente Parsifal\r\n"
-                				+ "Descrição: \r\n"
+                				+ "Descrição: A Parsifal, instituição de Pedagogia Curativa e Terapia Social, foi fundada em 1991 e tem como objetivo promover o desenvolvimento pessoal e o convívio social de crianças, jovens e adultos com deficiências e distúrbios psíquicos. \r\n"
                 				+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
                 				+ "R.Robélia 59\r\n"
                 				+ "Jardim Prudência\r\n"
                 				+ "CEP 04648-240\r\n"
                 				+ "(11) 5547 0201\r\n"
                 				+ "aparsifal@terra.com.br\r\n"
-                				+ "www.abparsifal.hpg.com.br\r\n"
+                				+ "https://parsifal.org.br\r\n"
                 				);
                 	}
                 	else if(teste4==2) {
-                		System.out.println("Razão Social: Cáritas Diocesana de Santo Amaro\r\n"
-                				+ "Área de Atuação: Assistência a jovens\r\n"
-                				+ "Descrição: \r\n"
-                				+ "Av.Mascote 1171\r\n"
-                				+ "Vila Mascote\r\n"
-                				+ "CEP 04363-001\r\n"
-                				+ "(11) 5564 4829\r\n"
-                				+ "admmitra@terra.com.br\r\n");
+                		System.out.println("Razão Social: GRAACC - Grupo de Apoio a Adolescentes e à Criança com Câncer\r\n"                		
+                				+ "Área de Atuação: Assistência a crianças"
+                				+ "Descrição: Garantir a crianças e adolescentes com câncer, dentro do mais avançado padrão científico, o direito de alcançar todas as chances de cura com qualidade de vida. \r\n"
+                				+ "R.Botucatu 743\r\n"
+                				+ "Vila Clementino\r\n"
+                				+ "CEP 04023-062 \r\n"
+                				+ "(11) 5080 8400\r\n"
+                				+ "graacc@graacc.org.br\r\n"
+                				+ "www.graacc.org.br\r\n");
                 	}
                 	else if(teste4==3) {
                 		System.out.println("Razão Social: Fundação Bunge\r\n"
                 				+ "Área de Atuação: Educação e pesquisa\r\n"
-                				+ "Descrição: \\r\\n"
+                				+ "Descrição: Contribuir para o desenvolvimento sustentável por meio de ações que valorizem o avanço da ciência, a educação e a conservação dos recursos naturais.\r\n"
                 				+ "Av.Maria Coelho Aguiar 215 Bloco D - 5º andar\r\n"
                 				+ "Jardim São Luiz\r\n"
                 				+ "CEP 05804-900\r\n"
@@ -89,7 +90,7 @@ public class Codigo {
                 else if(teste3==3) {
                 	//escolha da Zona leste em SP 
                     //
-                	System.out.println("Escolha uma das instituições para saber mais: \n[1] Grupo da Sopa\n[2] Lar da Redenção\n[3] Assistência a pessoas com deficiência\n[4] Missões Quilombo");
+                	System.out.println("Escolha uma das instituições para saber mais: \n[1] Grupo da Sopa\n[2] Casa do Cristo Redentor\n[3] Assistência a pessoas com deficiência\n[4] Missões Quilombo");
                     teste5=entrada.nextInt();
                     if (teste5==1) {
                     	System.out.println("Razão Social: Grupo da Sopa\r\n"
@@ -106,7 +107,7 @@ public class Codigo {
                     else if(teste5==2) {
                     	System.out.println("Razão Social: Lar da Redenção\r\n"
                     			+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
-                    			+ "Descrição: \r\n"
+                    			+ "Descrição:Oferecer moradia e tratamento adequado a crianças especiais portadoras de deficiência física mental e múltipla, em condição de abandono e maus tratos, desenvolvendo ao máximo suas potencialidades enquanto houver prognostico reabilitacional. Promover a intervenção precoce para quando possível, facilitar sua autonomia e inclusão social. \r\n"
                     			+ "R.Cassandoca 535\r\n"
                     			+ "Mooca\r\n"
                     			+ "CEP 03169-010\r\n"                    			
@@ -115,19 +116,20 @@ public class Codigo {
                     			+ "www.lardaredencao.org.br\r\n");
                     }
                     else if(teste5==3) {
-                    	System.out.println("Razão Social: Instituição Paulista Adventista Assist.Social Vila Carmosina\r\n"
-                    			+ "Área de Atuação: Assistência e serviços sociais\r\n"
-                    			+ "Descrição: \r\n"
-                    			+ "R.Palmitinho 82\r\n"
+                    	System.out.println("Razão Social: Casa do Cristo Redentor\r\n"
+                    			+ "Área de Atuação: Assistência a crianças\r\n"
+                    			+ "Descrição: Tem o objetivo de acolher, educar e promover o bem-estar físico e social de crianças, adolescentes e famílias em situação de vulnerabilidade social. \r\n"
+                    			+ "R.Agrimensor Sugaya 986\r\n"
                     			+ "Itaquera\r\n"
-                    			+ "CEP 08210-020\r\n"                    			
-                    			+ "(11) 6179 6919\r\n"
-                    			+ "vering@ig.com.br\r\n");
+                    			+ "CEP 08260-030\r\n"
+                    			+ "(11) 6521 6222\r\n"
+                    			+ "ccr@casadocristoredentor.org.br\r\n"
+                    			+ "www.casadocristoredentor.org.br\r\n");
                     }
                     else if(teste5==4) {
                     	System.out.println("Razão Social: Sociedade Cultural Missões Quilombo\r\n"
                     			+ "Área de Atuação: Direitos Humanos e Cidadania\r\n"
-                    			+ "Descrição: \r\n"
+                    			+ "Descrição: Tem o objetivo de levar à consciência negra e à negritude cristã, debate racial com a sociedade. 	Promover a discussão bíblico-teológica sobre o racismo. Debater os preconceitos ainda encontrados na igreja, na teologia e na educação religiosa\r\n"
                     			+ "R.João Bodin 296 Quadra M Casa 01\r\n"
                     			+ "Jardim Aurora\r\n"
                     			+ "CEP 08431-060\r\n"                    			
