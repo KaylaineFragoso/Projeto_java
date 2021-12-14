@@ -23,8 +23,8 @@ public class Teste_sul {
     	}
     	else if(teste==2) {
     		System.out.println("Razão Social: GRAACC - Grupo de Apoio a Adolescentes e à Criança com Câncer\r\n"                		
-    				+ "Área de Atuação: Assistência a crianças"
     				+ "Descrição: Garantir a crianças e adolescentes com câncer, dentro do mais avançado padrão científico, o direito de alcançar todas as chances de cura com qualidade de vida. \r\n"
+    				+ "Área de Atuação: Assistência a crianças"
     				+ "R.Botucatu 743\r\n"
     				+ "Vila Clementino\r\n"
     				+ "CEP 04023-062 \r\n"
@@ -34,8 +34,8 @@ public class Teste_sul {
     	}
     	else if(teste==3) {
     		System.out.println("Razão Social: Fundação Bunge\r\n"
-    				+ "Área de Atuação: Educação e pesquisa\r\n"
     				+ "Descrição: Contribuir para o desenvolvimento sustentável por meio de ações que valorizem o avanço da ciência, a educação e a conservação dos recursos naturais.\r\n"
+    				+ "Área de Atuação: Educação e pesquisa\r\n"
     				+ "Av.Maria Coelho Aguiar 215 Bloco D - 5º andar\r\n"
     				+ "Jardim São Luiz\r\n"
     				+ "CEP 05804-900\r\n"

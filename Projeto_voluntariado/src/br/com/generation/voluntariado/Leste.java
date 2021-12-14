@@ -23,8 +23,8 @@ public class Leste {
      	}
      else if(teste==2) {
      	System.out.println("Razão Social: Lar da Redenção\r\n"
-     			+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
      			+ "Descrição:Oferecer moradia e tratamento adequado a crianças especiais portadoras de deficiência física mental e múltipla, em condição de abandono e maus tratos, desenvolvendo ao máximo suas potencialidades enquanto houver prognostico reabilitacional. Promover a intervenção precoce para quando possível, facilitar sua autonomia e inclusão social. \r\n"
+     			+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
      			+ "R.Cassandoca 535\r\n"
      			+ "Mooca\r\n"
      			+ "CEP 03169-010\r\n"                    			
@@ -34,8 +34,8 @@ public class Leste {
      }
      else if(teste==3) {
      	System.out.println("Razão Social: Casa do Cristo Redentor\r\n"
-     			+ "Área de Atuação: Assistência a crianças\r\n"
      			+ "Descrição: Tem o objetivo de acolher, educar e promover o bem-estar físico e social de crianças, adolescentes e famílias em situação de vulnerabilidade social. \r\n"
+     			+ "Área de Atuação: Assistência a crianças\r\n"
      			+ "R.Agrimensor Sugaya 986\r\n"
      			+ "Itaquera\r\n"
      			+ "CEP 08260-030\r\n"
@@ -45,8 +45,8 @@ public class Leste {
      }
      else if(teste==4) {
      	System.out.println("Razão Social: Sociedade Cultural Missões Quilombo\r\n"
-     			+ "Área de Atuação: Direitos Humanos e Cidadania\r\n"
      			+ "Descrição: Tem o objetivo de levar à consciência negra e à negritude cristã, debate racial com a sociedade. 	Promover a discussão bíblico-teológica sobre o racismo. Debater os preconceitos ainda encontrados na igreja, na teologia e na educação religiosa\r\n"
+     			+ "Área de Atuação: Direitos Humanos e Cidadania\r\n"
      			+ "R.João Bodin 296 Quadra M Casa 01\r\n"
      			+ "Jardim Aurora\r\n"
      			+ "CEP 08431-060\r\n"                    			

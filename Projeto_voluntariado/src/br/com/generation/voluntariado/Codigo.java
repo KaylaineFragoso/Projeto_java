@@ -11,6 +11,7 @@ public class Codigo {
         Leste a2 = new Leste();
         Litoral a3 = new Litoral();
         Abc a4 = new Abc();
+        Norte a5 = new Norte();
         System.out.println("Você gostaria de encontrar uma instituição para se voluntariar? \n1: Sim \n2: Não ");
         teste=entrada.nextInt();
         //começo dos laços para saber se a pessoa quer ou não se voluntariar
@@ -30,7 +31,7 @@ public class Codigo {
                 if(teste3==1) {
                 	//escolha da Zona norte em SP                	
                     //
-                	System.out.println("Essas são as instituições:  do Norte");
+                	a5.sul();
                 }
                 else if(teste3==2) {
                    
