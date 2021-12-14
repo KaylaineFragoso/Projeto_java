@@ -37,54 +37,44 @@ public class Codigo {
                 	teste4=entrada.nextInt();
                 	if(teste4==1) {
                 		System.out.println("Razão Social: Assoc.Beneficente Parsifal\r\n"
+                				+ "Descrição: \r\n"
                 				+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
-                				+ "Fundação: 01/06/1991\r\n"
-                				+ "Responsável: José Carlos Ventri\r\n"
                 				+ "R.Robélia 59\r\n"
                 				+ "Jardim Prudência\r\n"
                 				+ "CEP 04648-240\r\n"
-                				+ "São Paulo - SP\r\n"
-                				+ "Karin Evelyn Scheven\r\n"
                 				+ "(11) 5547 0201\r\n"
                 				+ "aparsifal@terra.com.br\r\n"
-                				+ "www.abparsifal.hpg.com.br\r\n");
+                				+ "www.abparsifal.hpg.com.br\r\n"
+                				);
                 	}
                 	else if(teste4==2) {
                 		System.out.println("Razão Social: Cáritas Diocesana de Santo Amaro\r\n"
                 				+ "Área de Atuação: Assistência a jovens\r\n"
-                				+ "Fundação: 22/01/1991\r\n"
-                				+ "Responsável: Airton Aparecido Avelino\r\n"
+                				+ "Descrição: \r\n"
                 				+ "Av.Mascote 1171\r\n"
                 				+ "Vila Mascote\r\n"
                 				+ "CEP 04363-001\r\n"
-                				+ "São Paulo - SP\r\n"
-                				+ "Airton Aparecido Avelino\r\n"
                 				+ "(11) 5564 4829\r\n"
                 				+ "admmitra@terra.com.br\r\n");
                 	}
                 	else if(teste4==3) {
                 		System.out.println("Razão Social: Fundação Bunge\r\n"
                 				+ "Área de Atuação: Educação e pesquisa\r\n"
-                				+ "Fundação: 30/09/1955\r\n"
-                				+ "Responsável: Carlo Lovatelli\r\n"
+                				+ "Descrição: \\r\\n"
                 				+ "Av.Maria Coelho Aguiar 215 Bloco D - 5º andar\r\n"
                 				+ "Jardim São Luiz\r\n"
                 				+ "CEP 05804-900\r\n"
-                				+ "São Paulo - SP\r\n"
                 				+ "(11) 3741 6832\r\n"
                 				+ "fundacao@bunge.com.br\r\n"
                 				+ "www.fundacaobunge.org.br\r\n");
                 	}
                 	else if(teste4==4) {
                 		System.out.println("Razão Social: ADD- Assoc.Desportiva para Deficientes\r\n"
+                				+ "Descrição: Missão Incentivar e promover o desenvolvimento e a inclusão de pessoas com deficiência por meio do esporte e do apoio educacional em âmbito nacional. Princípios e Valores A ADD valoriza os talentos e capacidades das pessoas, apoiando-se em princípios éticos e morais. \r\n"
                 				+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
-                				+ "Fundação: 01/02/1996\r\n"
-                				+ "Responsável: Eliane Miada\r\n"
                 				+ "Rua das Pitombeiras, 296\r\n"
                 				+ "Vila Parque Jabaquara\r\n"
                 				+ "CEP 04321-160\r\n"
-                				+ "São Paulo - SP\r\n"
-                				+ "Eliane Miada\r\n"
                 				+ "(11) 50116133\r\n"
                 				+ "contato@add.org.br\r\n"
                 				+ "www.add.org.br\r\n"
@@ -103,13 +93,11 @@ public class Codigo {
                     teste5=entrada.nextInt();
                     if (teste5==1) {
                     	System.out.println("Razão Social: Grupo da Sopa\r\n"
+                    			+ "Descrição: Preparo e distribuição de refeições, atendimento e orientação para moradores de rua na cidade de São Paulo. Formado por um grupo de amigos que prepara 320 refeições todas as quintas das 17 às 21h e depois deste horário sai para a entrega nas regiões do Brás, Centro, Ipiranga e Jabaquara. Aos sábados são 120 refeições preparadas das 9 às 12h e depois sai para entrega até as 14h na região do Brás e Glicério. Além das refeições também são levadas roupas, kits de higiene, cobertores, etc.\r\n"
                     			+ "Área de Atuação: Outros/Assistência\r\n"
-                    			+ "Responsável: Norival Nogueira\r\n"
                     			+ "Rua Borges de Figueiredo, 82\r\n"
                     			+ "Mooca\r\n"
-                    			+ "CEP 03110-010\r\n"
-                    			+ "São Paulo - SP\r\n"
-                    			+ "Norival / Marcelo\r\n"
+                    			+ "CEP 03110-010\r\n"                    			
                     			+ "(11) 994465312 ou (11) 96332-4165\r\n"
                     			+ "contato@grupodasopa.org ou norivalnogueira@gmail.com\r\n"
                     			+ "www.grupodasopa.org\r\n"
@@ -118,13 +106,10 @@ public class Codigo {
                     else if(teste5==2) {
                     	System.out.println("Razão Social: Lar da Redenção\r\n"
                     			+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
-                    			+ "Fundação: 16/08/1982\r\n"
-                    			+ "Responsável: Luiza Mariko\r\n"
+                    			+ "Descrição: \r\n"
                     			+ "R.Cassandoca 535\r\n"
                     			+ "Mooca\r\n"
-                    			+ "CEP 03169-010\r\n"
-                    			+ "São Paulo - SP\r\n"
-                    			+ "Luiza Mariko Suetugui Correa\r\n"
+                    			+ "CEP 03169-010\r\n"                    			
                     			+ "(11) 2605 4879\r\n"
                     			+ "lardaredencao@lardaredencao.org.br\r\n"
                     			+ "www.lardaredencao.org.br\r\n");
@@ -132,26 +117,20 @@ public class Codigo {
                     else if(teste5==3) {
                     	System.out.println("Razão Social: Instituição Paulista Adventista Assist.Social Vila Carmosina\r\n"
                     			+ "Área de Atuação: Assistência e serviços sociais\r\n"
-                    			+ "Fundação: 01/10/1992\r\n"
-                    			+ "Responsável: Julinda Bernardes da Silva\r\n"
+                    			+ "Descrição: \r\n"
                     			+ "R.Palmitinho 82\r\n"
                     			+ "Itaquera\r\n"
-                    			+ "CEP 08210-020\r\n"
-                    			+ "São Paulo - SP\r\n"
-                    			+ "Julinda Bernardes da Silva\r\n"
+                    			+ "CEP 08210-020\r\n"                    			
                     			+ "(11) 6179 6919\r\n"
                     			+ "vering@ig.com.br\r\n");
                     }
                     else if(teste5==4) {
                     	System.out.println("Razão Social: Sociedade Cultural Missões Quilombo\r\n"
                     			+ "Área de Atuação: Direitos Humanos e Cidadania\r\n"
-                    			+ "Fundação: 23/01/1991\r\n"
-                    			+ "Responsável: Eliete Aparecida Gutierrez\r\n"
+                    			+ "Descrição: \r\n"
                     			+ "R.João Bodin 296 Quadra M Casa 01\r\n"
                     			+ "Jardim Aurora\r\n"
-                    			+ "CEP 08431-060\r\n"
-                    			+ "São Paulo - SP\r\n"
-                    			+ "Hernani Francisco da Silva\r\n"
+                    			+ "CEP 08431-060\r\n"                    			
                     			+ "(11) 6135 3867\r\n"
                     			+ "hernaniquilombo@yahoo.com.br\r\n"
                     			+ "www.mquilombo.com.br\r\n");
