@@ -1,0 +1,59 @@
+package br.com.generation.voluntariado;
+
+import java.util.Scanner;
+
+public class Leste {
+ void leste(){
+	 Scanner entrada = new Scanner(System.in);
+	 int teste;
+	 System.out.println("Escolha uma das instituições para saber mais: \n[1] Grupo da Sopa\n[2] Casa do Cristo Redentor\n[3] Assistência a pessoas com deficiência\n[4] Missões Quilombo");
+	 teste=entrada.nextInt();
+	 if (teste==1) {
+		
+     	System.out.println("Razão Social: Grupo da Sopa\r\n"
+     			+ "Descrição: Preparo e distribuição de refeições, atendimento e orientação para moradores de rua na cidade de São Paulo. Formado por um grupo de amigos que prepara 320 refeições todas as quintas das 17 às 21h e depois deste horário sai para a entrega nas regiões do Brás, Centro, Ipiranga e Jabaquara. Aos sábados são 120 refeições preparadas das 9 às 12h e depois sai para entrega até as 14h na região do Brás e Glicério. Além das refeições também são levadas roupas, kits de higiene, cobertores, etc.\r\n"
+     			+ "Área de Atuação: Outros/Assistência\r\n"
+     			+ "Rua Borges de Figueiredo, 82\r\n"
+     			+ "Mooca\r\n"
+     			+ "CEP 03110-010\r\n"                    			
+     			+ "(11) 994465312 ou (11) 96332-4165\r\n"
+     			+ "contato@grupodasopa.org ou norivalnogueira@gmail.com\r\n"
+     			+ "www.grupodasopa.org\r\n"
+     			+ "/grupo.dasopa\r\n");
+     	}
+     else if(teste==2) {
+     	System.out.println("Razão Social: Lar da Redenção\r\n"
+     			+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
+     			+ "Descrição:Oferecer moradia e tratamento adequado a crianças especiais portadoras de deficiência física mental e múltipla, em condição de abandono e maus tratos, desenvolvendo ao máximo suas potencialidades enquanto houver prognostico reabilitacional. Promover a intervenção precoce para quando possível, facilitar sua autonomia e inclusão social. \r\n"
+     			+ "R.Cassandoca 535\r\n"
+     			+ "Mooca\r\n"
+     			+ "CEP 03169-010\r\n"                    			
+     			+ "(11) 2605 4879\r\n"
+     			+ "lardaredencao@lardaredencao.org.br\r\n"
+     			+ "www.lardaredencao.org.br\r\n");
+     }
+     else if(teste==3) {
+     	System.out.println("Razão Social: Casa do Cristo Redentor\r\n"
+     			+ "Área de Atuação: Assistência a crianças\r\n"
+     			+ "Descrição: Tem o objetivo de acolher, educar e promover o bem-estar físico e social de crianças, adolescentes e famílias em situação de vulnerabilidade social. \r\n"
+     			+ "R.Agrimensor Sugaya 986\r\n"
+     			+ "Itaquera\r\n"
+     			+ "CEP 08260-030\r\n"
+     			+ "(11) 6521 6222\r\n"
+     			+ "ccr@casadocristoredentor.org.br\r\n"
+     			+ "www.casadocristoredentor.org.br\r\n");
+     }
+     else if(teste==4) {
+     	System.out.println("Razão Social: Sociedade Cultural Missões Quilombo\r\n"
+     			+ "Área de Atuação: Direitos Humanos e Cidadania\r\n"
+     			+ "Descrição: Tem o objetivo de levar à consciência negra e à negritude cristã, debate racial com a sociedade. 	Promover a discussão bíblico-teológica sobre o racismo. Debater os preconceitos ainda encontrados na igreja, na teologia e na educação religiosa\r\n"
+     			+ "R.João Bodin 296 Quadra M Casa 01\r\n"
+     			+ "Jardim Aurora\r\n"
+     			+ "CEP 08431-060\r\n"                    			
+     			+ "(11) 6135 3867\r\n"
+     			+ "hernaniquilombo@yahoo.com.br\r\n"
+     			+ "www.mquilombo.com.br\r\n");
+     }
+	 entrada.close();
+ }
+}
