@@ -3,7 +3,7 @@ package br.com.generation.voluntariado;
 import java.util.Scanner;
 
 public class Norte {
-	void sul() {
+	void norte() {
 		Scanner entrada =new Scanner(System.in);
 		int  teste;
 		System.out.println("Escolha uma das instituições para saber mais: \n[1] Instituto Resgatando Vidas\n[2] Associação Tia Marly\n[3] Associação Cultural e Esportiva Viva ZN\r\n[4] Casa Taiguara das Expedições\r\n");
