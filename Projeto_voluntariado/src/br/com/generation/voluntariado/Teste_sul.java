@@ -5,13 +5,17 @@ import java.util.Scanner;
 public class Teste_sul {
 
 	void sul() {
+		
 		Scanner entrada =new Scanner(System.in);
-		int  teste;
-		System.out.println("Escolha uma das instituições para saber mais: \n[1] Associação Beneficente Parsifal\n[2] Salva Vidas Mirim\n[3] Fundação Bunge\n[4] Assoc.Desportiva para Deficientes");
-		teste=entrada.nextInt();
-    	if(teste==1) {
+		int  regSul;
+		System.out.println("Escolha uma das instituições para saber mais: \n[1] Associação Beneficente Parsifal\n[2] GRAACC - Grupo de Apoio a Adolescentes e à Criança com Câncer\n[3] Fundação Bunge\n[4] Assoc.Desportiva para Deficientes");
+		regSul=entrada.nextInt();
+		
+    	if(regSul==1) {
     		System.out.println("Razão Social: Assoc.Beneficente Parsifal\r\n"
-    				+ "Descrição: A Parsifal, instituição de Pedagogia Curativa e Terapia Social, foi fundada em 1991 e tem como objetivo promover o desenvolvimento pessoal e o convívio social de crianças, jovens e adultos com deficiências e distúrbios psíquicos. \r\n"
+    				+ "Descrição: A Parsifal, instituição de Pedagogia Curativa e Terapia Social, foi fundada em 1991 \n"
+    				+ "e tem como objetivo promover o desenvolvimento pessoal e o convívio social de crianças, jovens\n"
+    				+ "e adultos com deficiências e distúrbios psíquicos. \r\n"
     				+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
     				+ "R.Robélia 59\r\n"
     				+ "Jardim Prudência\r\n"
@@ -21,9 +25,10 @@ public class Teste_sul {
     				+ "https://parsifal.org.br\r\n"
     				);
     	}
-    	else if(teste==2) {
+    	else if(regSul==2) {
     		System.out.println("Razão Social: GRAACC - Grupo de Apoio a Adolescentes e à Criança com Câncer\r\n"                		
-    				+ "Descrição: Garantir a crianças e adolescentes com câncer, dentro do mais avançado padrão científico, o direito de alcançar todas as chances de cura com qualidade de vida. \r\n"
+    				+ "Descrição: Garantir a crianças e adolescentes com câncer, dentro do mais avançado padrão científico,\n"
+    				+ "o direito de alcançar todas as chances de cura com qualidade de vida. \r\n"
     				+ "Área de Atuação: Assistência a crianças"
     				+ "R.Botucatu 743\r\n"
     				+ "Vila Clementino\r\n"
@@ -32,9 +37,10 @@ public class Teste_sul {
     				+ "graacc@graacc.org.br\r\n"
     				+ "www.graacc.org.br\r\n");
     	}
-    	else if(teste==3) {
+    	else if(regSul==3) {
     		System.out.println("Razão Social: Fundação Bunge\r\n"
-    				+ "Descrição: Contribuir para o desenvolvimento sustentável por meio de ações que valorizem o avanço da ciência, a educação e a conservação dos recursos naturais.\r\n"
+    				+ "Descrição: Contribuir para o desenvolvimento sustentável por meio de ações que valorizem o avanço da ciência,\n "
+    				+ "a educação e a conservação dos recursos naturais.\r\n"
     				+ "Área de Atuação: Educação e pesquisa\r\n"
     				+ "Av.Maria Coelho Aguiar 215 Bloco D - 5º andar\r\n"
     				+ "Jardim São Luiz\r\n"
@@ -43,9 +49,11 @@ public class Teste_sul {
     				+ "fundacao@bunge.com.br\r\n"
     				+ "www.fundacaobunge.org.br\r\n");
     	}
-    	else if(teste==4) {
+    	else if(regSul==4) {
     		System.out.println("Razão Social: ADD- Assoc.Desportiva para Deficientes\r\n"
-    				+ "Descrição: Missão Incentivar e promover o desenvolvimento e a inclusão de pessoas com deficiência por meio do esporte e do apoio educacional em âmbito nacional. Princípios e Valores A ADD valoriza os talentos e capacidades das pessoas, apoiando-se em princípios éticos e morais. \r\n"
+    				+ "Descrição: Missão Incentivar e promover o desenvolvimento e a inclusão de pessoas com deficiência por meio \n"
+    				+ "do esporte e do apoio educacional em âmbito nacional. Princípios e Valores A ADD valoriza os talentos \n "
+    				+ "e capacidades das pessoas, apoiando-se em princípios éticos e morais. \r\n"
     				+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
     				+ "Rua das Pitombeiras, 296\r\n"
     				+ "Vila Parque Jabaquara\r\n"
@@ -57,7 +65,7 @@ public class Teste_sul {
     				+ "@addaddociacao\r\n");
     	}
     	else {
-    		System.out.println("Você digitou um numero invalido");
+    		System.out.println("Você digitou um número inválido");
     	}
     	entrada.close();
     	}
