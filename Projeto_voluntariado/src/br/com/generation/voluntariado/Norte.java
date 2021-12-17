@@ -38,7 +38,7 @@ public class Norte {
     	}
     	else if(regNorte==3) {
     		System.out.println("Razão Social: Associação Cultural e Esportiva Viva ZN\r\n"
-    				+ "Descrição: A Viva ZN é uma entidade sem fins lucrativos que acredita no potencial que a cultura, \n "
+    				+ "Descrição: A Viva ZN é uma entidade sem fins lucrativos que acredita no potencial que a cultura, \n"
     				+ "a educação e o esporte têm para transformar a realidade social de crianças e adolescentes que vivem em regiões periféricas.\r\n"
     				+ "Área de Atuação: Cultura, educação e esportes\r\n"
     				+ "Rua Engenheiro César 76\r\n"

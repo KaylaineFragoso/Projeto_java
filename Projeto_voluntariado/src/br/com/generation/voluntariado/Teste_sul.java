@@ -13,7 +13,7 @@ public class Teste_sul {
 		
     	if(regSul==1) {
     		System.out.println("Razão Social: Assoc.Beneficente Parsifal\r\n"
-    				+ "Descrição: A Parsifal, instituição de Pedagogia Curativa e Terapia Social, foi fundada em 1991 \n"
+    				+ "Descrição: A Parsifal, instituição de Pedagogia Curativa e Terapia Social, foi fundada em 1991\n"
     				+ "e tem como objetivo promover o desenvolvimento pessoal e o convívio social de crianças, jovens\n"
     				+ "e adultos com deficiências e distúrbios psíquicos. \r\n"
     				+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
@@ -39,7 +39,7 @@ public class Teste_sul {
     	}
     	else if(regSul==3) {
     		System.out.println("Razão Social: Fundação Bunge\r\n"
-    				+ "Descrição: Contribuir para o desenvolvimento sustentável por meio de ações que valorizem o avanço da ciência,\n "
+    				+ "Descrição: Contribuir para o desenvolvimento sustentável por meio de ações que valorizem o avanço da ciência,\n"
     				+ "a educação e a conservação dos recursos naturais.\r\n"
     				+ "Área de Atuação: Educação e pesquisa\r\n"
     				+ "Av.Maria Coelho Aguiar 215 Bloco D - 5º andar\r\n"
@@ -51,8 +51,8 @@ public class Teste_sul {
     	}
     	else if(regSul==4) {
     		System.out.println("Razão Social: ADD- Assoc.Desportiva para Deficientes\r\n"
-    				+ "Descrição: Missão Incentivar e promover o desenvolvimento e a inclusão de pessoas com deficiência por meio \n"
-    				+ "do esporte e do apoio educacional em âmbito nacional. Princípios e Valores A ADD valoriza os talentos \n "
+    				+ "Descrição: Missão Incentivar e promover o desenvolvimento e a inclusão de pessoas com deficiência por meio\n"
+    				+ "do esporte e do apoio educacional em âmbito nacional. Princípios e Valores A ADD valoriza os talentos\n"
     				+ "e capacidades das pessoas, apoiando-se em princípios éticos e morais. \r\n"
     				+ "Área de Atuação: Assistência a pessoas com deficiência\r\n"
     				+ "Rua das Pitombeiras, 296\r\n"
