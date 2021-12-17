@@ -7,20 +7,21 @@ import java.util.Scanner;
 	  void litoral() {
 	
         Scanner entrada = new Scanner(System.in);
-	    int voluntariarLit, litNorte, litSul = 0;
+	    int voluntariarLit, litNorte, litSul;
 	    System.out.println("Escolha uma cidade do Litoral Paulista: "
              + "\n[1] Santos \n[2] Litoral norte");
 	    voluntariarLit=entrada.nextInt();
+	    
 	 
 	 
 	    if(voluntariarLit==1) {
 		    System.out.println("[1]Entrega por Santos \n[2]Lar vicentino \n[3]Ecofaxina \n[4]Brinquedos do Bem \n");
-		    voluntariarLit=entrada.nextInt();
+		    litSul=entrada.nextInt();
 		    
  	    if(litSul==1) {
  		    System.out.println("Razão social: Entrega por Santos\r\n"
- 				+ "Descrição: O projeto Entrega por Santos é uma mobilização solidária, sem fins lucrativos ou vínculos políticos, \n"
- 				+ "que busca resgatar sorrisos daqueles que vivem nas ruas de Santos e São Vicente. \n "
+ 				+ "Descrição: O projeto Entrega por Santos é uma mobilização solidária, sem fins lucrativos ou vínculos políticos,\n"
+ 				+ "que busca resgatar sorrisos daqueles que vivem nas ruas de Santos e São Vicente.\n"
  				+ "Conheça mais sobre o projeto e seja um voluntario!\n"
  				+ "Área de Atuação: Cidadania e vida \n"
  				+ "http://www.instagram.com/entregaporsantos\n"
@@ -40,7 +41,7 @@ import java.util.Scanner;
  	   }
  	   else if(litSul==3) {
  		  System.out.println("Razão social : Ecofaxina\r\n"
- 				+ "Descrição: O Instituto EcoFaxina atua desde 2008 com foco no desenvolvimento e apoio a políticas públicas, pesquisas, programas e ações voltadas à proteção do Meio Ambiente e ao Desenvolvimento Sustentável. Seus esforços estão focados na expansão da consciência ambiental.\r\n"
+ 				+ "Descrição: O Instituto EcoFaxina atua desde 2008 com foco no desenvolvimento e apoio a políticas públicas, pesquisas, programas e ações voltadas à proteção do Meio Ambiente e ao Desenvolvimento Sustentável.\r\nSeus esforços estão focados na expansão da consciência ambiental.\r\n"
  				+ "Área de Atuação: Saude e proteção do meio ambiente \r\n"
  				+ "Rua Nabuco de Araújo, 71, Boqueirão\r\n"
  				+ "Santos\r\n"
