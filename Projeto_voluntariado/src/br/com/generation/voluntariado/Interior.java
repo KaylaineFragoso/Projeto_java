@@ -9,7 +9,7 @@ import java.util.Scanner;
 		Scanner entrada = new Scanner(System.in);
 		 int voluntariarInt, regSerra, regEmbu, regArtes;
 		 System.out.println("Escolha uma cidade do Interior Paulista: "
-	             + "\n[1] Itapecerica da Serra \n[2] Embu-Guaçu\n[3] Embu das Artes");
+	             + "\n[1] Itapecerica da Serra \n[2] Embu-Guaçu\n[3] Embu das Artes"); 
 		 voluntariarInt=entrada.nextInt();
 		 
 		 

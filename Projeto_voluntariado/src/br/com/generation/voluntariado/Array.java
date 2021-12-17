@@ -10,7 +10,7 @@ String capital ="[1] Capital";
 String litoral = "[2] Litoral";
 String interior = "[3] Interior";
 String abc = "[4] ABC";
-
+ 
 String escolha = "Escolha uma região da capital de São Paulo: ";
 String norte = "[1] Zona Norte";
 String sul = "[2] Zona Sul ";

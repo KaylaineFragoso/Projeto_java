@@ -31,7 +31,7 @@ public class Oeste {
     				+ "Rua Jacundá, 112\r\n"
     				+ "Jardim Panorama\r\n"
     				+ "CEP 05679-060\r\n"
-    				+ "(11) 3773-4992\r\n"
+     				+ "(11) 3773-4992\r\n"
     				+ "crianca@criancabrasil.org.br\r\n");
     	}
     	else if(RegOeste==3) {

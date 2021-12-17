@@ -66,7 +66,7 @@ import java.util.Scanner;
  	   }
 }
  	   else if(voluntariarLit==2) {
- 		   System.out.println("[1]Supereco \n [2]Associação viva e deixe viver contadores de histórias");
+ 		   System.out.println("[1] Supereco \n[2] Associação viva e deixe viver contadores de histórias");
  		   litNorte=entrada.nextInt();
  		   
  	   if(litNorte==1) {
@@ -84,7 +84,7 @@ import java.util.Scanner;
  	   else if(litNorte==2) {
  		   System.out.println("Razão social: Associação viva e deixe viver contadores de histórias\r\n"
  				+ "Descrição: Levar a leitura, a brincadeira, as histórias para onde quer que vamos é o primeiro passo para\n"
- 				+ "transformar o atendimento clínico e internação hospitalar de crianças e adolescentes que passam por momentos\n "
+ 				+ "transformar o atendimento clínico e internação hospitalar de crianças e adolescentes que passam por momentos\n"
  				+ "difíceis em um momento mais alegre, saudável, agradável e terapêutico.\r\n"
  				+ "Área de Atuação: Cultura e educação \r\n"
  				+ "https://www.instagram.com/vivavdv/\r\n"

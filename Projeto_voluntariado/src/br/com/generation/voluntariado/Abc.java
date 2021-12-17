@@ -69,7 +69,7 @@ public class Abc {
         
         else if(voluntariarAbc==2) {
           
-        	System.out.println("Escolha uma das instituições para saber mais: \n[1] Casa dos Velhinhos Dona Adelaide\n[2] IAIP - Irmão Palminha\n[3] AGDS\n[4] Casa de Estar São Luiz\n[5] Instituto Mamãe Clory");
+        	System.out.println("Escolha uma das instituições para saber mais: \n[1] Casa dos Velhinhos Dona Adelaide\n[2] IAIP - Irmão Palminha\n[3] AGDS\n[4] Casa de Estar São Luiz\n[5] Instituto Mamãe Clory"); 
         	
         regBernardo=entrada.nextInt();
         if(regBernardo==1) {
